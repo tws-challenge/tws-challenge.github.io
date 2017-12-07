@@ -1,0 +1,628 @@
+
+<!DOCTYPE HTML>
+<html lang="zh" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>DOM 介绍 · JavaScript全栈 - Pre-Course</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-disqus/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../clean-code.html" />
+    
+    
+    <link rel="prev" href="3.11 han-shu.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../0 intro/0 intro.html">
+            
+                <a href="../0 intro/0 intro.html">
+            
+                    
+                    课程介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../1 start/1. intro.html">
+            
+                <a href="../1 start/1. intro.html">
+            
+                    
+                    Start
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../1 start/1.1 learning-method.html">
+            
+                <a href="../1 start/1.1 learning-method.html">
+            
+                    
+                    教学方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../1 start/1.2 soft-tools.html">
+            
+                <a href="../1 start/1.2 soft-tools.html">
+            
+                    
+                    软件和工具
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../2 基本技能/2 intro.html">
+            
+                <a href="../2 基本技能/2 intro.html">
+            
+                    
+                    基本技能
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../2 基本技能/2.1 how-to-ask-question.html">
+            
+                <a href="../2 基本技能/2.1 how-to-ask-question.html">
+            
+                    
+                    如何提问
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../2 基本技能/2.2 intro-markdown.html">
+            
+                <a href="../2 基本技能/2.2 intro-markdown.html">
+            
+                    
+                    markdown 使用 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../2 基本技能/2.3 how-to-write-blog.html">
+            
+                <a href="../2 基本技能/2.3 how-to-write-blog.html">
+            
+                    
+                    如何写 blog
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../2 基本技能/2.4 intro-git.html">
+            
+                <a href="../2 基本技能/2.4 intro-git.html">
+            
+                    
+                    Git 的简单应用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../2 基本技能/2.5 intro-github-pages.html">
+            
+                <a href="../2 基本技能/2.5 intro-github-pages.html">
+            
+                    
+                    GitHub Pages
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../intro linux.html">
+            
+                <a href="../intro linux.html">
+            
+                    
+                    初识Linux
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="3 intro.html">
+            
+                <a href="3 intro.html">
+            
+                    
+                    JavaScript基础
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="3.1 quote.html">
+            
+                <a href="3.1 quote.html">
+            
+                    
+                    如何引用JavaScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="3.2 variable.html">
+            
+                <a href="3.2 variable.html">
+            
+                    
+                    变量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="3.3 shu-ju-lei-xing.html">
+            
+                <a href="3.3 shu-ju-lei-xing.html">
+            
+                    
+                    数据类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="3.4 shu-xue-yun-suan-fu.html">
+            
+                <a href="3.4 shu-xue-yun-suan-fu.html">
+            
+                    
+                    数学运算符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="3.6 tiao-jian-fen-zhi.html">
+            
+                <a href="3.6 tiao-jian-fen-zhi.html">
+            
+                    
+                    条件分支结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="3.7 xun-huan-jie-gou.html">
+            
+                <a href="3.7 xun-huan-jie-gou.html">
+            
+                    
+                    循环结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7" data-path="3.8 zi-fu-chuan.html">
+            
+                <a href="3.8 zi-fu-chuan.html">
+            
+                    
+                    字符串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.8" data-path="3.9 dui-xiang.html">
+            
+                <a href="3.9 dui-xiang.html">
+            
+                    
+                    对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.9" data-path="3.10 shu-zu.html">
+            
+                <a href="3.10 shu-zu.html">
+            
+                    
+                    数组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.10" data-path="3.11 han-shu.html">
+            
+                <a href="3.11 han-shu.html">
+            
+                    
+                    函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6.11" data-path="3.12 intro DOM.html">
+            
+                <a href="3.12 intro DOM.html">
+            
+                    
+                    DOM 介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../clean-code.html">
+            
+                <a href="../clean-code.html">
+            
+                    
+                    整洁代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../zai-chromedevtools-zhong-jin-xing-diao-shi.html">
+            
+                <a href="../zai-chromedevtools-zhong-jin-xing-diao-shi.html">
+            
+                    
+                    在Chrome DevTools中进行调试
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本書使用 GitBook 釋出
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >DOM 介绍</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="dom-&#x4ECB;&#x7ECD;">DOM &#x4ECB;&#x7ECD;</h1>
+<h4 id="&#x672C;&#x8282;&#x5B66;&#x4E60;&#x76EE;&#x6807;">&#x672C;&#x8282;&#x5B66;&#x4E60;&#x76EE;&#x6807;</h4>
+<ul>
+<li>&#x4E86;&#x89E3;DOM&#x57FA;&#x7840;</li>
+</ul>
+<ul>
+<li>&#x4F7F;&#x7528; DOM &#x5BF9; web &#x9875;&#x9762;&#x5143;&#x7D20;&#x8FDB;&#x884C;&#x64CD;&#x4F5C;</li>
+</ul>
+<h4 id="&#x672C;&#x8282;&#x5185;&#x5BB9;">&#x672C;&#x8282;&#x5185;&#x5BB9;</h4>
+<blockquote>
+<p>DOM&#xFF08;&#x6587;&#x6863;&#x5BF9;&#x8C61;&#x6A21;&#x578B;&#xFF09;&#x662F;&#x9488;&#x5BF9; HTML &#x548C; XML &#x6587;&#x6863;&#x7684;&#x4E00;&#x4E2A; API&#xFF0C;&#x901A;&#x8FC7; DOM &#x53EF;&#x4EE5;&#x53BB;&#x6539;&#x53D8;&#x6587;&#x6863;&#x3002;</p>
+</blockquote>
+<p>&#x7B80;&#x5355;&#x7684;&#x8BF4;&#xFF0C;&#x4E00;&#x4E2A; web &#x7F51;&#x9875;&#x5C31;&#x662F;&#x4E00;&#x4E2A;&#x6587;&#x6863;&#xFF0C;&#x4F7F;&#x7528; DOM &#x6539;&#x53D8;&#x6587;&#x6863;&#x5C31;&#x662F;&#x4F7F;&#x7528; DOM &#x5B9A;&#x4E49;&#x7684;&#x4E00;&#x4E9B;&#x65B9;&#x6CD5;&#x64CD;&#x4F5C;&#x5177;&#x4F53;&#x7684;&#x8282;&#x70B9;&#x3002;&#x6BD4;&#x5982;&#x7528;<code>getElementById</code> &#x6765;&#x6839;&#x636E;&#x5143;&#x7D20; <code>id</code> &#x6765;&#x67E5;&#x627E;&#x5143;&#x7D20;&#x8282;&#x70B9;&#x3002;</p>
+<p>&#x5F53;&#x6D4F;&#x89C8;&#x5668;&#x8F7D;&#x5165;HTML&#x65F6;&#xFF0C;&#x4F1A;&#x751F;&#x6210;&#x76F8;&#x5E94;&#x7684; DOM &#x6811;&#xFF0C;&#x5927;&#x6982;&#x957F;&#x8FD9;&#x6837;</p>
+<p><img src="../assets/html-dom.png" alt=""></p>
+<p>&#x628A;&#x5B83;&#x8F6C;&#x6210; HTML &#x4EE3;&#x7801;&#x7684;&#x8BDD;&#x4F1A;&#x662F;&#x8FD9;&#x6837;</p>
+<pre class="language-"><code class="lang-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>en<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>&#x6211;&#x662F;title<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>#<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>&#x6211;&#x662F;&#x6587;&#x672C;&#x94FE;&#x63A5;<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>myId<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>&#x6211;&#x662F;p&#x6807;&#x7B7E;<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<p>&#x5BF9;&#x4E8E;&#x4E00;&#x4E2A; HTML &#x6765;&#x8BF4;&#xFF0C;&#x6587;&#x6863;&#x8282;&#x70B9; <code>Document</code> &#xFF08;&#x662F;&#x770B;&#x4E0D;&#x5230;&#x7684;&#xFF09;&#x5C31;&#x662F;&#x5B83;&#x7684;&#x6839;&#x8282;&#x70B9;&#xFF0C;&#x8FD9;&#x4E2A;&#x6839;&#x8282;&#x70B9;&#x5BF9;&#x5E94;&#x7684;&#x5BF9;&#x8C61;&#x5C31;&#x662F; <code>document</code> &#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x6839;&#x8282;&#x70B9;&#x6765;&#x8BBF;&#x95EE;&#x5B83;&#x7684;&#x5B50;&#x8282;&#x70B9;(Element &#x3001;Text)&#x3002;</p>
+<h5 id="document-&#x7C7B;&#x578B;">Document &#x7C7B;&#x578B;</h5>
+<p>&#x521A;&#x624D;&#x8BF4;&#x9053;  <code>Document</code> &#x662F;&#x6574;&#x4E2A;&#x6587;&#x6863;&#x7684;&#x6839;&#x8282;&#x70B9;&#xFF0C;&#x6211;&#x4EEC;&#x60F3;&#x8981;&#x8BBF;&#x95EE;&#x67D0;&#x4E2A;&#x8282;&#x70B9;&#x7684;&#x65F6;&#x5019;&#x90FD;&#x5FC5;&#x987B;&#x901A;&#x8FC7; <code>document</code> &#x8FD9;&#x4E2A;&#x5B9E;&#x4F8B;&#x5BF9;&#x8C61;&#x3002;</p>
+<p><code>document</code> &#x5BF9;&#x8C61;&#x7684;&#x5E38;&#x7528;&#x5C5E;&#x6027;&#xFF1A;</p>
+<pre class="language-"><code class="lang-javascript">document<span class="token punctuation">.</span>documentElement  <span class="token comment" spellcheck="true">// &#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x62FF;&#x5230; html &#x8282;&#x70B9;&#x7684;&#x5F15;&#x7528;</span>
+document<span class="token punctuation">.</span>title <span class="token comment" spellcheck="true">//  &#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x83B7;&#x53D6; title &#x8282;&#x70B9;&#x7684;&#x6587;&#x672C; &#x201C;&#x6211;&#x662F;title&#x201D;</span>
+document<span class="token punctuation">.</span>URL <span class="token comment" spellcheck="true">// &#x83B7;&#x53D6; URL</span>
+</code></pre>
+<p><code>document</code> &#x5BF9;&#x8C61;&#x7684;&#x5E38;&#x7528;&#x65B9;&#x6CD5;</p>
+<pre class="language-"><code class="lang-javascript">document<span class="token punctuation">.</span>getElementById <span class="token comment" spellcheck="true">// docment.getElementById(&apos;myId&apos;) &#x53EF;&#x4EE5;&#x83B7;&#x53D6;&#x5230;&#x5C5E;&#x6027; id &#x4E3A; &#x2018;myId&#x2019; &#x7684;&#x8282;&#x70B9;&#xFF0C;&#x5728;&#x4E0A;&#x9762;&#x7684;&#x4EE3;&#x7801;&#x4E2D;&#x83B7;&#x53D6;&#x7684;&#x4E5F;&#x5C31;&#x662F; p &#x8282;&#x70B9;</span>
+document<span class="token punctuation">.</span>getElementsByTagName <span class="token comment" spellcheck="true">//docment.getElementByTagName(&apos;p&apos;) &#x53EF;&#x4EE5;&#x83B7;&#x53D6;&#x5230;&#x8282;&#x70B9;&#x4E3A; p &#x7684;&#x6240;&#x6709;&#x8282;&#x70B9;&#x96C6;</span>
+</code></pre>
+<p>&#x73B0;&#x5728;&#x6211;&#x4EEC;&#x5C31;&#x6839;&#x636E; <code>document</code> &#x5BF9;&#x8C61;&#x4E2D;&#x7684;&#x65B9;&#x6CD5;&#x83B7;&#x53D6;&#x5230; HTML &#x4E2D;&#x4EFB;&#x610F;&#x8282;&#x70B9;&#x4E86;&#xFF0C;&#x4E0B;&#x9762;&#x6211;&#x4EEC;&#x6765;&#x4ECB;&#x7ECD;&#x5728;&#x5DF2;&#x7ECF;&#x62FF;&#x5230;&#x8282;&#x70B9;&#x7684;&#x57FA;&#x7840;&#x4E0A;&#x8BE5;&#x5982;&#x4F55;&#x5BF9;&#x8BE5;&#x8282;&#x70B9;&#x8FDB;&#x884C;&#x64CD;&#x4F5C;&#x3002;</p>
+<p><strong>Element &#x7C7B;&#x578B;</strong></p>
+<p>&#x901A;&#x5E38;&#x6211;&#x4EEC;&#x5728;&#x4F7F;&#x7528; <code>document</code> &#x5BF9;&#x8C61;&#x6765;&#x83B7;&#x53D6;&#x8282;&#x70B9;&#x65F6;&#xFF0C;&#x8FD4;&#x56DE;&#x7684;&#x8282;&#x70B9;&#x7C7B;&#x578B;&#x5C31;&#x662F; <code>Element</code> &#x7C7B;&#x578B;&#xFF0C;&#x6240;&#x4EE5;&#x6211;&#x4EEC;&#x60F3;&#x8981;&#x5BF9;&#x83B7;&#x53D6;&#x7684;&#x8282;&#x70B9;&#x8FDB;&#x884C;&#x64CD;&#x4F5C;&#xFF0C;&#x6211;&#x4EEC;&#x53EA;&#x9700;&#x8981;&#x4F7F;&#x7528; <code>Element</code> &#x5305;&#x542B;&#x7684;&#x5C5E;&#x6027;&#x548C;&#x65B9;&#x6CD5;&#x5373;&#x53EF;&#x3002;</p>
+<p>&#x5E38;&#x7528;&#x7684;&#x5C5E;&#x6027;&#xFF1A;</p>
+<pre class="language-"><code class="lang-javascript"><span class="token keyword">var</span> myNode <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">&apos;myId&apos;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+myNode<span class="token punctuation">.</span>id <span class="token comment" spellcheck="true">// &#x83B7;&#x53D6;&#x8BE5;&#x8282;&#x70B9;&#x7684; id &#xFF0C;&#x5373; &#x2018;myId&#x2018;</span>
+myNode<span class="token punctuation">.</span>tagName <span class="token comment" spellcheck="true">// &#x83B7;&#x53D6;&#x8BE5;&#x8282;&#x70B9;&#x7684;&#x8282;&#x70B9;&#x540D;&#xFF0C;&#x5373; &apos;P&apos;&#xFF0C;&#x5927;&#x90E8;&#x5206;&#x6D4F;&#x89C8;&#x5668;&#x8FD4;&#x56DE;&#x7684;&#x6807;&#x7B7E;&#x540D;&#x90FD;&#x662F;&#x5927;&#x5199;</span>
+myNode<span class="token punctuation">.</span>className <span class="token comment" spellcheck="true">//&#x83B7;&#x53D6;&#x8BE5;&#x8282;&#x70B9;&#x7684; class</span>
+</code></pre>
+<p>&#x64CD;&#x4F5C;&#x8282;&#x70B9;&#x5C5E;&#x6027;&#x7684;&#x5E38;&#x7528;&#x65B9;&#x6CD5;&#xFF1A;</p>
+<pre class="language-"><code class="lang-JavaScript">//&#x5047;&#x5982;&#x6211;&#x4EEC;&#x6709;&#x4E00;&#x4E2A; input&#xFF0C;&#x6211;&#x4EEC;&#x60F3;&#x8981;&#x83B7;&#x53D6; input &#x7684; type &#x5C5E;&#x6027;&#xFF0C;&#x5E76;&#x5BF9; type &#x5C5E;&#x6027;&#x8FDB;&#x884C;&#x64CD;&#x4F5C;
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&apos;</span>text<span class="token punctuation">&apos;</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&apos;</span>input<span class="token punctuation">&apos;</span></span><span class="token punctuation">/&gt;</span></span>
+
+var myNode = document.getElementById(&apos;input&apos;)
+myNode.getAttribute(&apos;type&apos;) // &#x83B7;&#x53D6;&#x5C5E;&#x6027;&#x503C;&#xFF0C;&#x5373; &#x2018;text&#x2019;
+myNode.setAttribute(&apos;type&apos;,&apos;password&apos;) // &#x5C06; type &#x5C5E;&#x6027;&#x503C;&#x6539;&#x4E3A; password &#x7C7B;&#x578B;
+myNode.removeAttribute(&apos;type&apos;) // &#x79FB;&#x9664; type &#x5C5E;&#x6027;
+</code></pre>
+<h4 id="&#x5176;&#x4ED6;&#x8D44;&#x6599;&#x63A8;&#x8350;">&#x5176;&#x4ED6;&#x8D44;&#x6599;&#x63A8;&#x8350;</h4>
+<ul>
+<li>DOM &#x4E8B;&#x4EF6;&#xFF1A;<a href="http://www.w3school.com.cn/htmldom/dom_events.asp" target="_blank">http://www.w3school.com.cn/htmldom/dom_events.asp</a></li>
+</ul>
+<h4 id="&#x672C;&#x8282;&#x7EC3;&#x4E60;">&#x672C;&#x8282;&#x7EC3;&#x4E60;</h4>
+<p>&#x7F16;&#x5199;&#x4E00;&#x4E2A;&#x6A21;&#x62DF;&#x7528;&#x6237;&#x767B;&#x5F55;&#x7684;&#x529F;&#x80FD;&#xFF0C;&#x6B63;&#x786E;&#x7684;&#x8D26;&#x53F7;&#x5BC6;&#x7801;&#x5747;&#x4E3A;123&#xFF0C;&#x9875;&#x9762;&#x9700;&#x8981;&#x4E24;&#x4E2A; <code>input</code> &#x8282;&#x70B9;&#x548C;&#x4E00;&#x4E2A; <code>button</code> &#x8282;&#x70B9;&#x3002;</p>
+<p>&#x8981;&#x6C42;&#xFF1A;</p>
+<ul>
+<li>&#x70B9;&#x51FB; <code>button</code> &#x65F6;&#x9700;&#x8981;&#x5224;&#x65AD;&#x7528;&#x6237;&#x8F93;&#x5165;&#x7684;&#x8D26;&#x53F7;&#x5BC6;&#x7801;&#x662F;&#x5426;&#x4E3A; 123 &#xFF0C;&#x5E76;&#x7ED9;&#x4E88;&#x76F8;&#x5E94;&#x7684;&#x63D0;&#x793A;&#xFF08;&#x65B9;&#x5F0F;&#x4E0D;&#x9650;&#xFF09;</li>
+<li>&#x5982;&#x679C;&#x8D26;&#x53F7;&#x6216;&#x5BC6;&#x7801;&#x9519;&#x8BEF;&#xFF0C;&#x5C06;&#x5BC6;&#x7801;&#x6240;&#x5728;&#x7684; <code>input</code> &#x8282;&#x70B9;&#x4E2D;&#x7684;&#x5185;&#x5BB9;&#x6E05;&#x7A7A;</li>
+</ul>
+
+                                
+                                </section>
+                            
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="3.11 han-shu.html" class="navigation navigation-prev " aria-label="Previous page: 函数">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../clean-code.html" class="navigation navigation-next " aria-label="Next page: 整洁代码">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"DOM 介绍","level":"1.6.11","depth":2,"next":{"title":"整洁代码","level":"1.7","depth":1,"path":"clean-code.md","ref":"clean-code.md","articles":[]},"previous":{"title":"函数","level":"1.6.10","depth":2,"path":"3 JavaScript基础/3.11 han-shu.md","ref":"3 JavaScript基础/3.11 han-shu.md","articles":[]},"dir":"ltr"},"config":{"plugins":["disqus","github","editlink","prism","-highlight","splitter","sitemap","-sharing","-search"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{},"disqus":{"useIdentifier":false,"shortName":"tws-js-precourse"},"github":{"url":"https://github.com/tws-challenge/javascriptFullStackPre-Course"},"editlink":{"label":"编辑本页","multilingual":false,"base":"https://tws.gitbooks.io/javascript-pre-course/content"},"splitter":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"sitemap":{"hostname":"https://tws.gitbooks.io/javascript-pre-course/"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"JavaScript全栈 - Pre-Course","language":"zh","gitbook":"*","description":"思沃学院之JavaScript全栈 - Pre-Course"},"file":{"path":"3 JavaScript基础/3.12 intro DOM.md","mtime":"2017-12-07T03:09:01.551Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-12-07T05:06:16.034Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-editlink/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

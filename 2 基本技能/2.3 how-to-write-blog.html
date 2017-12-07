@@ -1,0 +1,579 @@
+
+<!DOCTYPE HTML>
+<html lang="zh" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>如何写 blog · JavaScript全栈 - Pre-Course</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-disqus/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="2.4 intro-git.html" />
+    
+    
+    <link rel="prev" href="2.2 intro-markdown.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../0 intro/0 intro.html">
+            
+                <a href="../0 intro/0 intro.html">
+            
+                    
+                    课程介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../1 start/1. intro.html">
+            
+                <a href="../1 start/1. intro.html">
+            
+                    
+                    Start
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../1 start/1.1 learning-method.html">
+            
+                <a href="../1 start/1.1 learning-method.html">
+            
+                    
+                    教学方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../1 start/1.2 soft-tools.html">
+            
+                <a href="../1 start/1.2 soft-tools.html">
+            
+                    
+                    软件和工具
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="2 intro.html">
+            
+                <a href="2 intro.html">
+            
+                    
+                    基本技能
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="2.1 how-to-ask-question.html">
+            
+                <a href="2.1 how-to-ask-question.html">
+            
+                    
+                    如何提问
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="2.2 intro-markdown.html">
+            
+                <a href="2.2 intro-markdown.html">
+            
+                    
+                    markdown 使用 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.3" data-path="2.3 how-to-write-blog.html">
+            
+                <a href="2.3 how-to-write-blog.html">
+            
+                    
+                    如何写 blog
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="2.4 intro-git.html">
+            
+                <a href="2.4 intro-git.html">
+            
+                    
+                    Git 的简单应用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="2.5 intro-github-pages.html">
+            
+                <a href="2.5 intro-github-pages.html">
+            
+                    
+                    GitHub Pages
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../intro linux.html">
+            
+                <a href="../intro linux.html">
+            
+                    
+                    初识Linux
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../3 JavaScript基础/3 intro.html">
+            
+                <a href="../3 JavaScript基础/3 intro.html">
+            
+                    
+                    JavaScript基础
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../3 JavaScript基础/3.1 quote.html">
+            
+                <a href="../3 JavaScript基础/3.1 quote.html">
+            
+                    
+                    如何引用JavaScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../3 JavaScript基础/3.2 variable.html">
+            
+                <a href="../3 JavaScript基础/3.2 variable.html">
+            
+                    
+                    变量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../3 JavaScript基础/3.3 shu-ju-lei-xing.html">
+            
+                <a href="../3 JavaScript基础/3.3 shu-ju-lei-xing.html">
+            
+                    
+                    数据类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../3 JavaScript基础/3.4 shu-xue-yun-suan-fu.html">
+            
+                <a href="../3 JavaScript基础/3.4 shu-xue-yun-suan-fu.html">
+            
+                    
+                    数学运算符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../3 JavaScript基础/3.6 tiao-jian-fen-zhi.html">
+            
+                <a href="../3 JavaScript基础/3.6 tiao-jian-fen-zhi.html">
+            
+                    
+                    条件分支结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../3 JavaScript基础/3.7 xun-huan-jie-gou.html">
+            
+                <a href="../3 JavaScript基础/3.7 xun-huan-jie-gou.html">
+            
+                    
+                    循环结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7" data-path="../3 JavaScript基础/3.8 zi-fu-chuan.html">
+            
+                <a href="../3 JavaScript基础/3.8 zi-fu-chuan.html">
+            
+                    
+                    字符串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.8" data-path="../3 JavaScript基础/3.9 dui-xiang.html">
+            
+                <a href="../3 JavaScript基础/3.9 dui-xiang.html">
+            
+                    
+                    对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.9" data-path="../3 JavaScript基础/3.10 shu-zu.html">
+            
+                <a href="../3 JavaScript基础/3.10 shu-zu.html">
+            
+                    
+                    数组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.10" data-path="../3 JavaScript基础/3.11 han-shu.html">
+            
+                <a href="../3 JavaScript基础/3.11 han-shu.html">
+            
+                    
+                    函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.11" data-path="../3 JavaScript基础/3.12 intro DOM.html">
+            
+                <a href="../3 JavaScript基础/3.12 intro DOM.html">
+            
+                    
+                    DOM 介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../clean-code.html">
+            
+                <a href="../clean-code.html">
+            
+                    
+                    整洁代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../zai-chromedevtools-zhong-jin-xing-diao-shi.html">
+            
+                <a href="../zai-chromedevtools-zhong-jin-xing-diao-shi.html">
+            
+                    
+                    在Chrome DevTools中进行调试
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本書使用 GitBook 釋出
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >如何写 blog</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x5982;&#x4F55;&#x5199;-blog">&#x5982;&#x4F55;&#x5199; Blog</h1>
+<h4 id="&#x5B66;&#x4E60;&#x76EE;&#x6807;">&#x5B66;&#x4E60;&#x76EE;&#x6807;</h4>
+<p>&#x638C;&#x63E1;&#x5982;&#x4F55;&#x4EE5;&#x535A;&#x5BA2;&#x7684;&#x5F62;&#x5F0F;&#x6765;&#x6574;&#x7406;&#x548C;&#x8868;&#x8FBE;&#x81EA;&#x5DF1;&#x5E73;&#x65F6;&#x5B66;&#x5230;&#x7684;&#x77E5;&#x8BC6;&#x548C;&#x601D;&#x8003;&#xFF0C;&#x535A;&#x5BA2;&#x80FD;&#x591F;&#x505A;&#x5230;&#x7ED3;&#x6784;&#x6E05;&#x6670;&#x3001;&#x56FE;&#x6587;&#x5E76;&#x8302;&#x3001;&#x8868;&#x8FBE;&#x6E05;&#x695A;</p>
+<h4 id="&#x5B66;&#x4E60;&#x5185;&#x5BB9;">&#x5B66;&#x4E60;&#x5185;&#x5BB9;</h4>
+<ol>
+<li>&#x719F;&#x7EC3;&#x4F7F;&#x7528;markdown&#x8FDB;&#x884C;&#x5199;&#x4F5C;&#x548C;&#x6392;&#x7248;</li>
+<li>&#x7ED3;&#x6784;&#x5316;&#x7684;&#x8868;&#x8FBE;&#x89C2;&#x70B9;&#x548C;&#x5185;&#x5BB9;</li>
+<li>&#x5408;&#x7406;&#x5730;&#x4F7F;&#x7528;&#x56FE;&#x7247;&#x6216;&#x56FE;&#x5F62;&#x6765;&#x8F85;&#x52A9;&#x6587;&#x5B57;</li>
+<li>&#x5982;&#x4F55;&#x5728;&#x7B80;&#x4E66;&#x7B49;&#x5E73;&#x53F0;&#x5199;&#x535A;&#x5BA2;</li>
+<li>&#x5982;&#x4F55;&#x5BF9;&#x81EA;&#x5DF1;&#x7684;&#x6587;&#x7AE0;&#x8FDB;&#x884C;&#x5BA3;&#x4F20;&#x63A8;&#x5E7F;&#x5E76;&#x83B7;&#x5F97;&#x5176;&#x4ED6;&#x4EBA;&#x7684;&#x53CD;&#x9988;</li>
+<li>&#x5728;&#x7B80;&#x4E66;&#x5185;&#x53D1;&#x8868;&#x4E00;&#x7BC7;&#x5173;&#x4E8E; <strong>&#x5982;&#x4F55;&#x63D0;&#x95EE;</strong> &#x7684;&#x6587;&#x7AE0;&#xFF0C;&#x5E76;&#x5728;&#x4E0B;&#x65B9;&#x56DE;&#x590D;&#x6587;&#x7AE0;&#x7684;&#x94FE;&#x63A5;</li>
+</ol>
+<h4 id="&#x8D44;&#x6E90;&#x4E0E;&#x5DE5;&#x5177;">&#x8D44;&#x6E90;&#x4E0E;&#x5DE5;&#x5177;</h4>
+<ul>
+<li><a href="http://jianshu.com/" target="_blank">&#x7B80;&#x4E66;</a> </li>
+<li>&#x5199;&#x6587;&#x7AE0;&#x4E09;&#x6BB5;&#x5F0F;&#xFF1A;<a href="http://www.cnblogs.com/top5/archive/2010/05/19/1739286.html" target="_blank">http://www.cnblogs.com/top5/archive/2010/05/19/1739286.html</a></li>
+<li>&#x603B;&#x5206;&#x603B;&#x7ED3;&#x6784;: <a href="http://www.jianshu.com/p/647c494927d2" target="_blank">http://www.jianshu.com/p/647c494927d2</a></li>
+</ul>
+
+                                
+                                </section>
+                            
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="2.2 intro-markdown.html" class="navigation navigation-prev " aria-label="Previous page: markdown 使用 ">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="2.4 intro-git.html" class="navigation navigation-next " aria-label="Next page: Git 的简单应用">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"如何写 blog","level":"1.4.3","depth":2,"next":{"title":"Git 的简单应用","level":"1.4.4","depth":2,"path":"2 基本技能/2.4 intro-git.md","ref":"2 基本技能/2.4 intro-git.md","articles":[]},"previous":{"title":"markdown 使用 ","level":"1.4.2","depth":2,"path":"2 基本技能/2.2 intro-markdown.md","ref":"2 基本技能/2.2 intro-markdown.md","articles":[]},"dir":"ltr"},"config":{"plugins":["disqus","github","editlink","prism","-highlight","splitter","sitemap","-sharing","-search"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{},"disqus":{"useIdentifier":false,"shortName":"tws-js-precourse"},"github":{"url":"https://github.com/tws-challenge/javascriptFullStackPre-Course"},"editlink":{"label":"编辑本页","multilingual":false,"base":"https://tws.gitbooks.io/javascript-pre-course/content"},"splitter":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"sitemap":{"hostname":"https://tws.gitbooks.io/javascript-pre-course/"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"JavaScript全栈 - Pre-Course","language":"zh","gitbook":"*","description":"思沃学院之JavaScript全栈 - Pre-Course"},"file":{"path":"2 基本技能/2.3 how-to-write-blog.md","mtime":"2017-12-06T11:44:07.501Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-12-07T05:06:16.034Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-editlink/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
