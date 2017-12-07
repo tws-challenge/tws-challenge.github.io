@@ -11,6 +11,7 @@
 <url> <loc>https://tws.gitbooks.io/2 基本技能/2.3 how-to-write-blog.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://tws.gitbooks.io/2 基本技能/2.4 intro-git.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://tws.gitbooks.io/2 基本技能/2.5 intro-github-pages.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://tws.gitbooks.io/2 基本技能/2.6 zai-chromedevtools-zhong-jin-xing-diao-shi.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://tws.gitbooks.io/3 JavaScript基础/3 intro.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://tws.gitbooks.io/3 JavaScript基础/3.1 quote.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://tws.gitbooks.io/3 JavaScript基础/3.2 variable.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
@@ -23,7 +24,6 @@
 <url> <loc>https://tws.gitbooks.io/3 JavaScript基础/3.10 shu-zu.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://tws.gitbooks.io/3 JavaScript基础/3.11 han-shu.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://tws.gitbooks.io/3 JavaScript基础/3.12 intro DOM.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://tws.gitbooks.io/zai-chromedevtools-zhong-jin-xing-diao-shi.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://tws.gitbooks.io/clean-code.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://tws.gitbooks.io/intro linux.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 </urlset>
